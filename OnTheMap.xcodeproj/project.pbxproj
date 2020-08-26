@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B42FB6024A85FCF00C9F819 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB5F24A85FCF00C9F819 /* LoginViewController.swift */; };
+		2B42FB6324A8601100C9F819 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB6224A8601100C9F819 /* MapViewController.swift */; };
+		2B42FB6524A8608000C9F819 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB6424A8608000C9F819 /* TableViewController.swift */; };
+		2B42FB6724A8609900C9F819 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB6624A8609900C9F819 /* TableViewCell.swift */; };
+		2B42FB6B24BA83C900C9F819 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB6A24BA83C900C9F819 /* AddLocationViewController.swift */; };
+		2B42FB6D24BA83F400C9F819 /* AddMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB6C24BA83F400C9F819 /* AddMediaViewController.swift */; };
+		2B42FB7124BC160C00C9F819 /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB7024BC160C00C9F819 /* StudentLocation.swift */; };
+		2B42FB7424BD589F00C9F819 /* UdacityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB7324BD589F00C9F819 /* UdacityAPI.swift */; };
+		2B42FB7824BF4EA800C9F819 /* UerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB7724BF4EA700C9F819 /* UerInfo.swift */; };
+		2B42FB7A24C1564500C9F819 /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B42FB7924C1564500C9F819 /* LocationInfo.swift */; };
 		2BA4DDF224A419CB003877DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA4DDF124A419CB003877DA /* AppDelegate.swift */; };
 		2BA4DDF424A419CB003877DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA4DDF324A419CB003877DA /* SceneDelegate.swift */; };
 		2BA4DDF624A419CB003877DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA4DDF524A419CB003877DA /* ViewController.swift */; };
@@ -16,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B42FB5F24A85FCF00C9F819 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B42FB6224A8601100C9F819 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2B42FB6424A8608000C9F819 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2B42FB6624A8609900C9F819 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2B42FB6A24BA83C900C9F819 /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		2B42FB6C24BA83F400C9F819 /* AddMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMediaViewController.swift; sourceTree = "<group>"; };
+		2B42FB7024BC160C00C9F819 /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
+		2B42FB7324BD589F00C9F819 /* UdacityAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdacityAPI.swift; sourceTree = "<group>"; };
+		2B42FB7724BF4EA700C9F819 /* UerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UerInfo.swift; sourceTree = "<group>"; };
+		2B42FB7924C1564500C9F819 /* LocationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
 		2BA4DDEE24A419CB003877DA /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA4DDF124A419CB003877DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BA4DDF324A419CB003877DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,10 +57,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B42FB5E24A85F9A00C9F819 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2B42FB5F24A85FCF00C9F819 /* LoginViewController.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		2B42FB6124A85FED00C9F819 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2B42FB6224A8601100C9F819 /* MapViewController.swift */,
+				2B42FB6424A8608000C9F819 /* TableViewController.swift */,
+				2B42FB6624A8609900C9F819 /* TableViewCell.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2B42FB6924BA838F00C9F819 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				2B42FB6A24BA83C900C9F819 /* AddLocationViewController.swift */,
+				2B42FB6C24BA83F400C9F819 /* AddMediaViewController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		2B42FB7224BD584500C9F819 /* APi */ = {
+			isa = PBXGroup;
+			children = (
+				2B42FB7324BD589F00C9F819 /* UdacityAPI.swift */,
+			);
+			path = APi;
+			sourceTree = "<group>";
+		};
 		2BA4DDE524A419CB003877DA = {
 			isa = PBXGroup;
 			children = (
-				2BA4DDF024A419CB003877DA /* OnTheMap */,
+				2B42FB7024BC160C00C9F819 /* StudentLocation.swift */,
+				2B42FB7924C1564500C9F819 /* LocationInfo.swift */,
+				2B42FB7724BF4EA700C9F819 /* UerInfo.swift */,
+				2BA4DDF524A419CB003877DA /* ViewController.swift */,
+				2BA4DDF324A419CB003877DA /* SceneDelegate.swift */,
+				2BA4DDF124A419CB003877DA /* AppDelegate.swift */,
+				2B42FB6124A85FED00C9F819 /* Map */,
+				2B42FB5E24A85F9A00C9F819 /* LoginScreen */,
+				2B42FB7224BD584500C9F819 /* APi */,
+				2B42FB6924BA838F00C9F819 /* Location */,
+				2BA4DDF024A419CB003877DA /* View */,
 				2BA4DDEF24A419CB003877DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +118,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BA4DDF024A419CB003877DA /* OnTheMap */ = {
+		2BA4DDF024A419CB003877DA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2BA4DDF124A419CB003877DA /* AppDelegate.swift */,
-				2BA4DDF324A419CB003877DA /* SceneDelegate.swift */,
-				2BA4DDF524A419CB003877DA /* ViewController.swift */,
 				2BA4DDF724A419CB003877DA /* Main.storyboard */,
 				2BA4DDFA24A419CE003877DA /* Assets.xcassets */,
 				2BA4DDFC24A419CE003877DA /* LaunchScreen.storyboard */,
 				2BA4DDFF24A419CE003877DA /* Info.plist */,
 			);
-			path = OnTheMap;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B42FB6024A85FCF00C9F819 /* LoginViewController.swift in Sources */,
+				2B42FB6524A8608000C9F819 /* TableViewController.swift in Sources */,
 				2BA4DDF624A419CB003877DA /* ViewController.swift in Sources */,
+				2B42FB6B24BA83C900C9F819 /* AddLocationViewController.swift in Sources */,
 				2BA4DDF224A419CB003877DA /* AppDelegate.swift in Sources */,
+				2B42FB7A24C1564500C9F819 /* LocationInfo.swift in Sources */,
+				2B42FB6324A8601100C9F819 /* MapViewController.swift in Sources */,
+				2B42FB6724A8609900C9F819 /* TableViewCell.swift in Sources */,
+				2B42FB7824BF4EA800C9F819 /* UerInfo.swift in Sources */,
+				2B42FB6D24BA83F400C9F819 /* AddMediaViewController.swift in Sources */,
+				2B42FB7424BD589F00C9F819 /* UdacityAPI.swift in Sources */,
+				2B42FB7124BC160C00C9F819 /* StudentLocation.swift in Sources */,
 				2BA4DDF424A419CB003877DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +357,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OnTheMap/Info.plist;
+				DEVELOPMENT_TEAM = G97539N6Y4;
+				INFOPLIST_FILE = View/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.OnTheMap;
+				PRODUCT_BUNDLE_IDENTIFIER = OnTheMapTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +375,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OnTheMap/Info.plist;
+				DEVELOPMENT_TEAM = G97539N6Y4;
+				INFOPLIST_FILE = View/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.udacity.OnTheMap;
+				PRODUCT_BUNDLE_IDENTIFIER = OnTheMapTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
